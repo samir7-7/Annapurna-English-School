@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image2.svg";
-import SchoolDoodles from "@/assets/School Doodles.svg";
+import heroImage from "@/assets/hero-image2.webp";
+import SchoolDoodles from "@/assets/School Doodles.webp";
 
 const HeroSection = () => {
   return (

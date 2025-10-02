@@ -2,7 +2,7 @@ import { MapPin, Mail, Phone, Menu, X, IdCardIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
-import logo from "@/assets/Annapurna School Logo.svg";
+import logo from "@/assets/Annapurna School Logo.webp";
 import { useLocation } from "react-router-dom";
 
 const Header = () => {

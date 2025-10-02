@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import logo from "@/assets/Annapurna School Logo.svg"
+import logo from "@/assets/Annapurna School Logo.webp";
 
 const AboutSection = () => {
   return (
@@ -14,8 +14,14 @@ const AboutSection = () => {
                 <img src={logo} alt="" />
               </div>
               {/* Decorative triangles */}
-              <div className="absolute -bottom-4 -left-4 h-16 w-16 bg-primary" style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}></div>
-              <div className="absolute -top-4 -right-4 h-16 w-16 bg-primary" style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}></div>
+              <div
+                className="absolute -bottom-4 -left-4 h-16 w-16 bg-primary"
+                style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
+              ></div>
+              <div
+                className="absolute -top-4 -right-4 h-16 w-16 bg-primary"
+                style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
+              ></div>
             </div>
           </div>
 
@@ -26,10 +32,15 @@ const AboutSection = () => {
               Annapurna English School
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              We believe in student-centered learning and apart from academics, we also focus on extracurricular activities for their wholesome development.
+              We believe in student-centered learning and apart from academics,
+              we also focus on extracurricular activities for their wholesome
+              development.
             </p>
             <p className="text-muted-foreground mb-8">
-              Our mission is to provide quality education that nurtures young minds and prepares them for future challenges. With modern facilities, dedicated teachers, and a supportive environment, we strive for excellence in every aspect of education.
+              Our mission is to provide quality education that nurtures young
+              minds and prepares them for future challenges. With modern
+              facilities, dedicated teachers, and a supportive environment, we
+              strive for excellence in every aspect of education.
             </p>
             <Link to="/about">
               <Button variant="default" size="lg">
