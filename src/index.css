@@ -18,7 +18,8 @@ All colors MUST be HSL.
     --popover-foreground: 210 10% 23%;
 
     /* School brand green */
-    --primary: 84 60% 45%;
+    /* 84 60% 45% */
+    --primary: 95, 78%, 30%;
     --primary-foreground: 0 0% 100%;
     
     /* Lighter green for hover states */
