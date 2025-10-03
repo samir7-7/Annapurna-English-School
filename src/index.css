@@ -19,7 +19,7 @@ All colors MUST be HSL.
 
     /* School brand green */
     /* 84 60% 45% */
-    --primary: 95, 78%, 30%;
+    --primary: 95, 73%, 40%;
     --primary-foreground: 0 0% 100%;
     
     /* Lighter green for hover states */
