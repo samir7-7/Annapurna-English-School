@@ -270,7 +270,7 @@ const Contact = () => {
 
     try {
       // ✅ use relative API route instead of hardcoded domain
-      const response = await fetch("/backend/send", {
+      const response = await fetch("/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
