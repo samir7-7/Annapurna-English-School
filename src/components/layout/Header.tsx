@@ -163,12 +163,12 @@ const Header = () => {
               >
                 DIGITAL ANNAPURNA
               </Link>
-              <Link
+              {/* <Link
                 to="/blogs"
                 className="block py-2 hover:text-primary transition-colors"
               >
                 BLOGS
-              </Link>
+              </Link> */}
               <Link
                 to="/contact"
                 className="block py-2 hover:text-primary transition-colors"
