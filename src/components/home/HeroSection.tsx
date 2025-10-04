@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image2.webp";
+import heroImage from "@/assets/Hero-Image.webp";
 import SchoolDoodles from "@/assets/School Doodles.webp";
 import { Link } from "react-router-dom";
 

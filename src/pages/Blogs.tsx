@@ -8,7 +8,8 @@ const blogPosts = [
   {
     id: 1,
     title: "Preparing Students for Digital Age Learning",
-    excerpt: "Exploring how modern educational tools and digital literacy prepare our students for future careers.",
+    excerpt:
+      "Exploring how modern educational tools and digital literacy prepare our students for future careers.",
     date: "March 15, 2025",
     author: "Admin",
     category: "Education",
@@ -16,7 +17,8 @@ const blogPosts = [
   {
     id: 2,
     title: "The Importance of Extracurricular Activities",
-    excerpt: "How sports, arts, and clubs contribute to holistic student development beyond academics.",
+    excerpt:
+      "How sports, arts, and clubs contribute to holistic student development beyond academics.",
     date: "March 10, 2025",
     author: "Admin",
     category: "Student Life",
@@ -24,7 +26,8 @@ const blogPosts = [
   {
     id: 3,
     title: "Parent-Teacher Collaboration for Student Success",
-    excerpt: "Building strong partnerships between parents and teachers to support student achievement.",
+    excerpt:
+      "Building strong partnerships between parents and teachers to support student achievement.",
     date: "March 5, 2025",
     author: "Admin",
     category: "Community",
@@ -32,7 +35,8 @@ const blogPosts = [
   {
     id: 4,
     title: "STEAM Education: Building Future Innovators",
-    excerpt: "Our approach to Science, Technology, Engineering, Arts, and Mathematics education.",
+    excerpt:
+      "Our approach to Science, Technology, Engineering, Arts, and Mathematics education.",
     date: "February 28, 2025",
     author: "Admin",
     category: "Education",
@@ -40,7 +44,8 @@ const blogPosts = [
   {
     id: 5,
     title: "Annual Sports Day Highlights",
-    excerpt: "Celebrating sportsmanship, teamwork, and athletic excellence at our annual sports meet.",
+    excerpt:
+      "Celebrating sportsmanship, teamwork, and athletic excellence at our annual sports meet.",
     date: "February 20, 2025",
     author: "Admin",
     category: "Events",
@@ -48,7 +53,8 @@ const blogPosts = [
   {
     id: 6,
     title: "Admission Process: What Parents Need to Know",
-    excerpt: "A comprehensive guide to our admission procedures and requirements for new students.",
+    excerpt:
+      "A comprehensive guide to our admission procedures and requirements for new students.",
     date: "February 15, 2025",
     author: "Admin",
     category: "Admissions",
@@ -67,7 +73,8 @@ const Blogs = () => {
               Latest News & Updates
             </h1>
             <p className="text-xl text-primary-foreground/90 text-center mt-4">
-              Stay informed about school events, achievements, and educational insights
+              Stay informed about school events, achievements, and educational
+              insights
             </p>
           </div>
         </section>
@@ -83,7 +90,7 @@ const Blogs = () => {
                 >
                   {/* Featured Image Placeholder */}
                   <div className="h-48 bg-gradient-to-br from-primary to-secondary"></div>
-                  
+
                   {/* Content */}
                   <div className="p-6">
                     <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
@@ -95,21 +102,22 @@ const Blogs = () => {
                         {post.date}
                       </span>
                     </div>
-                    
+
                     <h2 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                       {post.title}
                     </h2>
-                    
-                    <p className="text-muted-foreground mb-4">
-                      {post.excerpt}
-                    </p>
-                    
+
+                    <p className="text-muted-foreground mb-4">{post.excerpt}</p>
+
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2 text-sm text-muted-foreground">
                         <User className="h-4 w-4" />
                         <span>{post.author}</span>
                       </div>
-                      <Button variant="link" className="p-0 h-auto group-hover:gap-2 transition-all">
+                      <Button
+                        variant="link"
+                        className="p-0 h-auto group-hover:gap-2 transition-all"
+                      >
                         Read More <ArrowRight className="h-4 w-4" />
                       </Button>
                     </div>

@@ -109,7 +109,7 @@ const Header = () => {
               >
                 DIGITAL ANNAPURNA
               </Link>
-              <Link
+              {/* <Link
                 to="/blogs"
                 className={`${
                   location.pathname === "/blogs"
@@ -118,7 +118,7 @@ const Header = () => {
                 } font-medium hover:text-primary transition-colors`}
               >
                 BLOGS
-              </Link>
+              </Link> */}
               <Link
                 to="/contact"
                 className={`${
