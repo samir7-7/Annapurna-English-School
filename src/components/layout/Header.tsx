@@ -131,7 +131,7 @@ const Header = () => {
               </Link>
               <Link to="/admission">
                 <Button variant="admission" className="ml-4">
-                  <IdCardIcon className="text-2xl" /> ADMISSION →
+                  <IdCardIcon className="text-3xl" /> ADMISSION →
                 </Button>
               </Link>
             </div>
@@ -177,7 +177,7 @@ const Header = () => {
               </Link>
               <Link to="/admission" className="block py-2">
                 <Button variant="admission" className="w-full">
-                  📋 ADMISSION →
+                  <IdCardIcon className="text-2xl" /> ADMISSION →
                 </Button>
               </Link>
             </div>
