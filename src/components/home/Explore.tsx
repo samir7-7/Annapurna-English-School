@@ -1,6 +1,7 @@
 import React from "react";
 import SchoolImage from "@/assets/schoolimage.jpg";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 function Explore() {
   return (
     <section className="h-[60vh] mb-11">
@@ -25,9 +26,11 @@ function Explore() {
             potential, achieve excellence, and grow into responsible global
             citizens.
           </p>
-          <Button variant="outline" className="px-7 py-5">
-            Know More
-          </Button>
+          <Link to={"/about"}>
+            <Button variant="outline" className="px-7 py-5">
+              Know More
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

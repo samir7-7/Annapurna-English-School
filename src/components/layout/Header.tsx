@@ -76,7 +76,7 @@ const Header = () => {
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <img src={logo} width={70} alt="" />
+              <img src={logo} width={70} alt="Annapurna English School Logo" />
             </Link>
 
             {/* Desktop Navigation */}

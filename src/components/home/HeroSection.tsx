@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image2.webp";
 import SchoolDoodles from "@/assets/School Doodles.webp";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -41,7 +42,9 @@ const HeroSection = () => {
           >
             Admission
           </Button>
-          <Button variant="outline">Learn More →</Button>
+          <Link to={"/about"}>
+            <Button variant="outline">Learn More →</Button>
+          </Link>
         </div>
 
         {/* Hero Image */}
